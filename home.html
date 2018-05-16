@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Class Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" />
+    <style  >
+        .signup_form{
+            background-color: cadetblue;
+            width: auto;
+            height: auto;
+            border: 5px solid blue;
+            padding: 20px;
+            align-content: center;
+            float: left;
+            
+        }
+        .signup_form_wrapper{
+            
+            width: auto;
+            height: auto;
+           
+            padding: 20px;
+            align-content: center;
+            float: left;
+            
+        }
+        .form_use{
+            width: 40%;
+            float: left;
+            margin-left: 10%;
+        }
+        fieldset{
+            background-color: chartreuse;
+        }
+        .login_form{
+            width: 40%;
+            background-color: cyan;
+            height: auto;
+            float: left;
+            padding: 20px;
+            margin-top: 50px;
+            margin-left: 135px;
+            border: 2px solid sienna;
+            margin-bottom: 20px;
+        }
+        .app_form{
+            float: left;
+            border: 2px solid seagreen;
+            background-color: teal;
+            padding: 20px;
+        }
+    </style>
+    <script src="main.js"></script>
+</head>
+<body>
+    
+    <!-- Creating a sign up or a registration form -->
+    <!-- A student form will be used as an example -->
+<div class="signup_form_wrapper">
+        <center><h1>Creating a sign up form</h1></center>
+        <div class="signup_form">
+    <form action="#" method="POST">
+       
+            Firstname: <input type="text" ><br><br>
+            Lastname: <input type="text" ><br><br>
+            Username: <input type="text"> <br><br>
+            Date of Birth: <input type="date"><br><br>
+            E-mail: <input type="email"><br><br>
+            Male: <input type="radio" name="Gender" id="Gender" value="Male"> 
+            Female: <input type="radio" name="Gender" id="Gender" value="Female"><br><br>
+            Create password: <Input type="password"></Input><br><br>
+            Confirm Password: <Input type="password"></Input> <br><br>
+            <textarea name="" id="" cols="30" rows="10">Tell us about yourself...</textarea><br>
+            <center> <input type="button" value="submit"></center>
+       
+    </form>
+</div>
+</div>
+<div class="form_use">
+  <center><h1>Creating a contact form using a fieldset</h1></center>
+    <!-- Creating a from using a fieldset tag -->
+    <form action="#" method="POST">
+        <fieldset >
+            <form action="#" method="POST"></form>
+            <h3>Personal Information</h3>
+            <h5>This form will help to expalin the use of fieldset </h5>
+            Firstname: <input type="text" ><br><br>
+            Lastname: <input type="text" ><br><br>
+            Matric Number: <input type="text" ><br><br>
+            Date of Birth: <input type="date"><br><br>
+            Phone number:<input type="value"><br><br>
+            <select>
+            <option value="select">Select a gender</option>
+             <option>Male</option>   
+             <option>Female</option>   
+             <option>Other</option>
+            </select>
+            <br><br>
+            <center>
+            <input type="button" name="" value="SUBMIT">
+            </center>
+        </fieldset>
+    </form>
+</div>
+
+<div class="login_form">
+        <form action="#" method="POST">    
+            <h3>LOGIN </h3>
+            Username:<input type ="text"></input>
+            Password:<input type="password"></input><br><br>
+            <center>
+            <input type="button" value="LOGIN">
+            </center>
+            </form>
+        </form>
+    </div>
+    
+    <div class="app_form">
+        <form action="#" method="POST">
+                Firstname: <input type="text" >   Lastname: <input type="text" ><br><br>
+                Date of Birth: <input type="date"><br><br>
+                Phone number:<input type="tel"><br><br>
+                State of origin: <select name="state" id="">
+                    <option value="Lagos">Lagos</option>
+                    <option value="Ondo">Ondo</option>
+                    <option value="Ogun">Ogun</option>
+                </select><br><br>
+                Institution Attended: <input type="text">
+                Year of Graduation: <input type="date"><br><br>
+                Upload a current CV: <input type="file"><br><br>
+                <center>
+                <input type="button" value="SUBMIT">
+                </center>
+            
+        </form>
+    </div>
+
+</body>
+</html>
